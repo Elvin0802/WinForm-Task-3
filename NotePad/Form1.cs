@@ -51,7 +51,7 @@ namespace NotePad
 				try
 				{
 					File.WriteAllText(SaveFileWindow.FileName, AppText.Text);
-					MessageBox.Show("File Saved", "Save Info", MessageBoxButtons.OK,MessageBoxIcon.Information);
+					MessageBox.Show("File Saved", "Save Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
 				}
 				catch
 				{
@@ -169,6 +169,11 @@ namespace NotePad
 		private void ApplyFontStyle(FontStyle fs)
 		{
 			AppText.Font = new Font(FontBox.Text, float.Parse(SizeBox.Text), fs);
+		}
+
+		private void Form1_SizeChanged(object sender, EventArgs e)
+		{
+			AppText.Size = new Size(((Form)sender).Width - 20, ((Form)sender).Height - 160);
 		}
 	}
 

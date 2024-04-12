@@ -1,6 +1,4 @@
 using Anket2.Models;
-using System.Windows.Forms;
-using System.Xml.Linq;
 
 namespace Anket2;
 

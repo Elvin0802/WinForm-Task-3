@@ -217,6 +217,10 @@
 			AppText.TabIndex = 1;
 			AppText.Text = "";
 			// 
+			// SaveFileWindow
+			// 
+			SaveFileWindow.FileName = "*.txt";
+			// 
 			// Form1
 			// 
 			AutoScaleDimensions = new SizeF(9F, 19F);
@@ -243,12 +247,11 @@
 			Font = new Font("Arial", 10F, FontStyle.Regular, GraphicsUnit.Point);
 			Icon = (Icon)resources.GetObject("$this.Icon");
 			Margin = new Padding(3, 2, 3, 2);
-			MaximizeBox = false;
-			MaximumSize = new Size(860, 700);
 			MinimumSize = new Size(860, 700);
 			Name = "Form1";
 			StartPosition = FormStartPosition.CenterScreen;
 			Text = "Notepad";
+			SizeChanged += Form1_SizeChanged;
 			ResumeLayout(false);
 		}
 

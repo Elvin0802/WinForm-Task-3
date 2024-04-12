@@ -67,6 +67,7 @@ partial class Form1
 		// 
 		label5.AutoSize = true;
 		label5.Font = new Font("Segoe UI", 11F, FontStyle.Underline, GraphicsUnit.Point);
+		label5.ForeColor = Color.FromArgb(244, 242, 236);
 		label5.Location = new Point(6, 302);
 		label5.Name = "label5";
 		label5.Size = new Size(140, 25);
@@ -77,6 +78,7 @@ partial class Form1
 		// 
 		label4.AutoSize = true;
 		label4.Font = new Font("Segoe UI", 11F, FontStyle.Underline, GraphicsUnit.Point);
+		label4.ForeColor = Color.FromArgb(244, 242, 236);
 		label4.Location = new Point(6, 230);
 		label4.Name = "label4";
 		label4.Size = new Size(58, 25);
@@ -87,6 +89,7 @@ partial class Form1
 		// 
 		label3.AutoSize = true;
 		label3.Font = new Font("Segoe UI", 11F, FontStyle.Underline, GraphicsUnit.Point);
+		label3.ForeColor = Color.FromArgb(244, 242, 236);
 		label3.Location = new Point(6, 158);
 		label3.Name = "label3";
 		label3.Size = new Size(87, 25);
@@ -97,6 +100,7 @@ partial class Form1
 		// 
 		label2.AutoSize = true;
 		label2.Font = new Font("Segoe UI", 11F, FontStyle.Underline, GraphicsUnit.Point);
+		label2.ForeColor = Color.FromArgb(244, 242, 236);
 		label2.Location = new Point(6, 83);
 		label2.Name = "label2";
 		label2.Size = new Size(62, 25);
@@ -107,6 +111,7 @@ partial class Form1
 		// 
 		label1.AutoSize = true;
 		label1.Font = new Font("Segoe UI", 11F, FontStyle.Underline, GraphicsUnit.Point);
+		label1.ForeColor = Color.FromArgb(244, 242, 236);
 		label1.Location = new Point(6, 374);
 		label1.Name = "label1";
 		label1.Size = new Size(96, 25);
@@ -116,8 +121,9 @@ partial class Form1
 		// AddBtn
 		// 
 		AddBtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-		AddBtn.BackColor = Color.LimeGreen;
+		AddBtn.BackColor = Color.FromArgb(190, 38, 35);
 		AddBtn.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+		AddBtn.ForeColor = Color.FromArgb(234, 232, 220);
 		AddBtn.Location = new Point(91, 471);
 		AddBtn.Name = "AddBtn";
 		AddBtn.Size = new Size(180, 60);
@@ -128,8 +134,8 @@ partial class Form1
 		// 
 		// BirthDateTxt
 		// 
-		BirthDateTxt.CalendarForeColor = Color.SandyBrown;
-		BirthDateTxt.CalendarMonthBackground = Color.SandyBrown;
+		BirthDateTxt.CalendarForeColor = Color.Snow;
+		BirthDateTxt.CalendarMonthBackground = Color.Snow;
 		BirthDateTxt.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
 		BirthDateTxt.Location = new Point(6, 402);
 		BirthDateTxt.Name = "BirthDateTxt";
@@ -139,7 +145,7 @@ partial class Form1
 		// 
 		// PNumTxt
 		// 
-		PNumTxt.BackColor = Color.SandyBrown;
+		PNumTxt.BackColor = Color.FromArgb(234, 232, 220);
 		PNumTxt.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
 		PNumTxt.Location = new Point(6, 330);
 		PNumTxt.Name = "PNumTxt";
@@ -149,7 +155,7 @@ partial class Form1
 		// 
 		// EmailTxt
 		// 
-		EmailTxt.BackColor = Color.SandyBrown;
+		EmailTxt.BackColor = Color.FromArgb(234, 232, 220);
 		EmailTxt.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
 		EmailTxt.Location = new Point(6, 258);
 		EmailTxt.Name = "EmailTxt";
@@ -159,7 +165,7 @@ partial class Form1
 		// 
 		// SurnameTxt
 		// 
-		SurnameTxt.BackColor = Color.SandyBrown;
+		SurnameTxt.BackColor = Color.FromArgb(234, 232, 220);
 		SurnameTxt.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
 		SurnameTxt.Location = new Point(6, 186);
 		SurnameTxt.Name = "SurnameTxt";
@@ -170,6 +176,7 @@ partial class Form1
 		// HeaderTextRegister
 		// 
 		HeaderTextRegister.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
+		HeaderTextRegister.ForeColor = Color.FromArgb(234, 232, 220);
 		HeaderTextRegister.Location = new Point(6, 23);
 		HeaderTextRegister.Name = "HeaderTextRegister";
 		HeaderTextRegister.Size = new Size(393, 49);
@@ -179,7 +186,7 @@ partial class Form1
 		// 
 		// NameTxt
 		// 
-		NameTxt.BackColor = Color.SandyBrown;
+		NameTxt.BackColor = Color.FromArgb(234, 232, 220);
 		NameTxt.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
 		NameTxt.Location = new Point(6, 114);
 		NameTxt.Margin = new Padding(3, 6, 3, 3);
@@ -204,6 +211,7 @@ partial class Form1
 		// FileNameText
 		// 
 		FileNameText.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+		FileNameText.ForeColor = Color.FromArgb(244, 242, 236);
 		FileNameText.Location = new Point(21, 433);
 		FileNameText.Name = "FileNameText";
 		FileNameText.Size = new Size(506, 34);
@@ -213,8 +221,9 @@ partial class Form1
 		// SaveBtn
 		// 
 		SaveBtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-		SaveBtn.BackColor = Color.LimeGreen;
+		SaveBtn.BackColor = Color.FromArgb(190, 38, 35);
 		SaveBtn.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+		SaveBtn.ForeColor = Color.FromArgb(234, 232, 220);
 		SaveBtn.Location = new Point(273, 481);
 		SaveBtn.Name = "SaveBtn";
 		SaveBtn.Size = new Size(180, 50);
@@ -226,8 +235,9 @@ partial class Form1
 		// LoadBtn
 		// 
 		LoadBtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-		LoadBtn.BackColor = Color.LimeGreen;
+		LoadBtn.BackColor = Color.FromArgb(190, 38, 35);
 		LoadBtn.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+		LoadBtn.ForeColor = Color.FromArgb(234, 232, 220);
 		LoadBtn.Location = new Point(87, 481);
 		LoadBtn.Name = "LoadBtn";
 		LoadBtn.Size = new Size(180, 50);
@@ -238,7 +248,7 @@ partial class Form1
 		// 
 		// UsersList
 		// 
-		UsersList.BackColor = Color.Gainsboro;
+		UsersList.BackColor = Color.FromArgb(244, 242, 236);
 		UsersList.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
 		UsersList.FormattingEnabled = true;
 		UsersList.ItemHeight = 28;
@@ -252,6 +262,7 @@ partial class Form1
 		// HeaderTextUsers
 		// 
 		HeaderTextUsers.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
+		HeaderTextUsers.ForeColor = Color.FromArgb(234, 232, 220);
 		HeaderTextUsers.Location = new Point(6, 23);
 		HeaderTextUsers.Name = "HeaderTextUsers";
 		HeaderTextUsers.Size = new Size(532, 49);
@@ -259,11 +270,15 @@ partial class Form1
 		HeaderTextUsers.Text = "Users";
 		HeaderTextUsers.TextAlign = ContentAlignment.MiddleCenter;
 		// 
+		// SaveWindow
+		// 
+		SaveWindow.FileName = "*.json";
+		// 
 		// Form1
 		// 
 		AutoScaleDimensions = new SizeF(8F, 20F);
 		AutoScaleMode = AutoScaleMode.Font;
-		BackColor = Color.LightSlateGray;
+		BackColor = Color.FromArgb(14, 55, 70);
 		ClientSize = new Size(982, 553);
 		Controls.Add(groupBox1);
 		Controls.Add(UserDataGB);
